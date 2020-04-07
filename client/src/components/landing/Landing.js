@@ -12,9 +12,7 @@ import SpendingLimit from 'components/landing/SpendingLimit/SpendingLimit';
 import CallToAction from 'components/landing/CallToAction/CallToAction';
 
 const Landing = ({ isAuthenticated }) => {
-  if (isAuthenticated) {
-    return <Redirect to="/dashboard" />;
-  }
+  if (isAuthenticated) return <Redirect to="/dashboard" />
 
   return (
     <Fragment>

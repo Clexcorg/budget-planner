@@ -2,9 +2,9 @@ import React from 'react';
 import Lottie from 'containers/Lottie/Lottie';
 import './Benefits.scss';
 
-const lottieSuccess = require('assets/lotties/success.json');
-
 const Benefits = () => {
+  const lottieSuccess = require('assets/lotties/success.json');
+
   return (
     <section className="benefits">
       <div className="container">
